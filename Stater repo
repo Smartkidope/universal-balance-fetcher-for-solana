@@ -1,0 +1,4 @@
+git clone https://github.com/buildspace/solana-intro-frontend.git
+cd solana-intro-frontend
+git checkout starter
+npm i
