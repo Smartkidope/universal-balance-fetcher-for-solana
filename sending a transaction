@@ -1,0 +1,5 @@
+const signature = sendAndConfirmTransaction(
+    connection,
+    transaction,
+    [senderKeypair]
+)
