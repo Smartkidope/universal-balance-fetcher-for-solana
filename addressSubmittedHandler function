@@ -1,0 +1,5 @@
+ const addressSubmittedHandler = (address: string) => {
+    const key = new web3.PublicKey(address);
+    setAddress(address)
+    setBalance(1000)
+  }
