@@ -6,3 +6,9 @@ const publicKey = ownerKeypair.publicKey
 
 // Get the secret key
 const secretKey = ownerKeypair.secretKey
+
+for private keys
+//private key as an array of bytes
+const secret = JSON.parse(process.env.PRIVATE_KEY ?? "") as number[]
+const secretKey = Uint8Array.from(secret)
+const keypairFromSecretKey = Keypair.fromSecretKey(secretKey)
